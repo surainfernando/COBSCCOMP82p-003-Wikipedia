@@ -35,7 +35,7 @@ class ViewController: UIViewController,UISearchBarDelegate{
     
     func apiCallfunction(_ searchContent:String)
     {
-        print("Log !1111")
+        print("Log !1111454545454545455454554")
         let tempclass=NetworkClient()
         tempclass.execute(searchContent)
     }
