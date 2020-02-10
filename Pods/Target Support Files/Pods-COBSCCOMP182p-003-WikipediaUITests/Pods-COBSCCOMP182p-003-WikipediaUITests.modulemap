@@ -1,0 +1,6 @@
+framework module Pods_COBSCCOMP182p_003_WikipediaUITests {
+  umbrella header "Pods-COBSCCOMP182p-003-WikipediaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
