@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280F365D23F193650066CA69 /* dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F365C23F193650066CA69 /* dog.swift */; };
 		2855EA3923EFCA4800E8070B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855EA3823EFCA4800E8070B /* AppDelegate.swift */; };
 		2855EA3B23EFCA4800E8070B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855EA3A23EFCA4800E8070B /* ViewController.swift */; };
 		2855EA3E23EFCA4800E8070B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855EA3C23EFCA4800E8070B /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		2855EA4323EFCA4900E8070B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855EA4123EFCA4900E8070B /* LaunchScreen.storyboard */; };
 		2855EA4E23EFCA4900E8070B /* COBSCCOMP182p_003_WikipediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855EA4D23EFCA4900E8070B /* COBSCCOMP182p_003_WikipediaTests.swift */; };
 		2855EA5923EFCA4900E8070B /* COBSCCOMP182p_003_WikipediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855EA5823EFCA4900E8070B /* COBSCCOMP182p_003_WikipediaUITests.swift */; };
+		28A1707923F1408C0044A7D9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1707823F1408C0044A7D9 /* TableViewController.swift */; };
+		28A1707B23F146C30044A7D9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1707A23F146C30044A7D9 /* TableViewCell.swift */; };
+		28A1707D23F14D2E0044A7D9 /* WikiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1707C23F14D2E0044A7D9 /* WikiCell.swift */; };
 		28BD081D23EFCB7800797B67 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BD081C23EFCB7800797B67 /* NetworkClient.swift */; };
 		2A82BF1AB581B3D7CF4E5F3A /* Pods_COBSCCOMP182p_003_WikipediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA354E63F6693101777EF8A /* Pods_COBSCCOMP182p_003_WikipediaUITests.framework */; };
 		BC6976E4452B56F83443F0E8 /* Pods_COBSCCOMP182p_003_Wikipedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28261863F60077F1F55BC93 /* Pods_COBSCCOMP182p_003_Wikipedia.framework */; };
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280F365C23F193650066CA69 /* dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
 		2855EA3523EFCA4800E8070B /* COBSCCOMP182p-003-Wikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COBSCCOMP182p-003-Wikipedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2855EA3823EFCA4800E8070B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2855EA3A23EFCA4800E8070B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		2855EA5423EFCA4900E8070B /* COBSCCOMP182p-003-WikipediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COBSCCOMP182p-003-WikipediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2855EA5823EFCA4900E8070B /* COBSCCOMP182p_003_WikipediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBSCCOMP182p_003_WikipediaUITests.swift; sourceTree = "<group>"; };
 		2855EA5A23EFCA4900E8070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A1707823F1408C0044A7D9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		28A1707A23F146C30044A7D9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		28A1707C23F14D2E0044A7D9 /* WikiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiCell.swift; sourceTree = "<group>"; };
 		28BD081C23EFCB7800797B67 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		2A721E6DF4EC59F76A1B8500 /* Pods-COBSCCOMP182p-003-WikipediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP182p-003-WikipediaUITests.release.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP182p-003-WikipediaUITests/Pods-COBSCCOMP182p-003-WikipediaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2D8D6E61469443E257CB040C /* Pods-COBSCCOMP182p-003-WikipediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP182p-003-WikipediaTests.release.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP182p-003-WikipediaTests/Pods-COBSCCOMP182p-003-WikipediaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,11 +126,15 @@
 			children = (
 				2855EA3823EFCA4800E8070B /* AppDelegate.swift */,
 				2855EA3A23EFCA4800E8070B /* ViewController.swift */,
+				28A1707823F1408C0044A7D9 /* TableViewController.swift */,
+				28A1707A23F146C30044A7D9 /* TableViewCell.swift */,
 				2855EA3C23EFCA4800E8070B /* Main.storyboard */,
 				2855EA3F23EFCA4900E8070B /* Assets.xcassets */,
 				2855EA4123EFCA4900E8070B /* LaunchScreen.storyboard */,
 				2855EA4423EFCA4900E8070B /* Info.plist */,
 				28BD081C23EFCB7800797B67 /* NetworkClient.swift */,
+				28A1707C23F14D2E0044A7D9 /* WikiCell.swift */,
+				280F365C23F193650066CA69 /* dog.swift */,
 			);
 			path = "COBSCCOMP182p-003-Wikipedia";
 			sourceTree = "<group>";
@@ -389,9 +401,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A1707B23F146C30044A7D9 /* TableViewCell.swift in Sources */,
 				2855EA3B23EFCA4800E8070B /* ViewController.swift in Sources */,
 				2855EA3923EFCA4800E8070B /* AppDelegate.swift in Sources */,
+				28A1707D23F14D2E0044A7D9 /* WikiCell.swift in Sources */,
 				28BD081D23EFCB7800797B67 /* NetworkClient.swift in Sources */,
+				280F365D23F193650066CA69 /* dog.swift in Sources */,
+				28A1707923F1408C0044A7D9 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
